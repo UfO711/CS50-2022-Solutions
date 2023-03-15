@@ -1,0 +1,12 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The best case of bubble sort will take it Big Omega of N times to complete the sort, which will be significantly shorter than the best case in selection sort. Therefore, I can conclude sort1 implements Bubble Sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: By calculating the time spend on sorting 50000 random numbers, the actual time sort2 program elapses is significantly shorter than the orther two.
+
+sort3 uses: Selection Sort
+
+How do you know?: Considering the big Omega time of selection sort is still n^2. Time spent on sorted 50000 numbers is longer than sort1, so this is Selection Sort.
+
